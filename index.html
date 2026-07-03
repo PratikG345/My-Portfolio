@@ -3,191 +3,871 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pratik | Backend Developer</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- ============ SEO ============ -->
+    <title>
+      Pratik Gaikwad | Data & Business Analyst — Excel, SQL, Power BI
+    </title>
+    <meta
+      name="description"
+      content="Pratik Gaikwad is a Data & Business Analyst specializing in Excel dashboards, SQL querying, and Power BI reporting, with a backend engineering foundation in Python and relational data modeling. Based in Nashik, India — open to Data Analyst, Business Analyst, and BI Developer roles."
+    />
+    <meta
+      name="keywords"
+      content="Data Analyst, Business Analyst, BI Developer, Power BI, SQL, Excel Dashboard, Data Visualization, EDA, Python Pandas, Nashik, Data Analytics Portfolio"
+    />
+    <meta name="author" content="Pratik Gaikwad" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://pratik-gaikwad.netlify.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Pratik Gaikwad | Data & Business Analyst"
+    />
+    <meta
+      property="og:description"
+      content="Data & Business Analyst specializing in Excel, SQL, and Power BI — with a backend engineering foundation in Python and relational data modeling."
+    />
+    <meta
+      property="og:image"
+      content="https://pratik-gaikwad.netlify.app/pratik.jpg"
+    />
+    <meta property="og:url" content="https://pratik-gaikwad.netlify.app/" />
+    <meta property="og:site_name" content="Pratik Gaikwad — Portfolio" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Pratik Gaikwad | Data & Business Analyst"
+    />
+    <meta
+      name="twitter:description"
+      content="Data & Business Analyst specializing in Excel, SQL, and Power BI reporting."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pratik-gaikwad.netlify.app/pratik.jpg"
+    />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pratik Atul Gaikwad",
+        "jobTitle": "Data & Business Analyst",
+        "url": "https://pratik-gaikwad.netlify.app/",
+        "image": "https://pratik-gaikwad.netlify.app/pratik.jpg",
+        "email": "mailto:mrpratikonline@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Nashik",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        },
+        "sameAs": [
+          "https://github.com/PratikG345",
+          "https://www.linkedin.com/in/pratikg345/"
+        ],
+        "knowsAbout": [
+          "Data Analysis",
+          "SQL",
+          "Microsoft Excel",
+          "Power BI",
+          "Python",
+          "Business Intelligence",
+          "Data Visualization"
+        ]
+      }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <!-- HERO -->
-    <section class="hero container">
-      <div class="row align-items-center w-100">
-        <div class="col-md-7">
-          <h1 class="fw-bold">Hi, I’m Pratik</h1>
-          <p class="lead text-muted-custom">
-            Backend Developer with experience in Python/Django, currently specializing in Java and Spring Boot. Skilled in building REST APIs, database-driven applications, and scalable backend systems with strong understanding of software architecture and real-world business workflows.
+    <!-- ============ NAV ============ -->
+    <nav class="navbar-glass">
+      <div class="container-xl navbar-inner">
+        <a href="#top" class="brand"><span class="dot"></span>Pratik Gaikwad</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a
+          target="_blank"
+          href="./pratik.pdf"
+          rel="noopener noreferrer"
+          class="nav-cta"
+          >Resume ↓</a
+        >
+      </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container-xl hero-grid">
+        <div>
+          <span class="hero-kicker"
+            >Data & Business Analyst · Nashik, India</span
+          >
+          <h1>
+            I turn raw, messy data<br />
+            into decisions people can <span class="accent">act on.</span>
+          </h1>
+          <p class="hero-lead">
+            Engineering-trained analyst combining hands-on SQL and Python
+            fluency with real ERP and procurement reporting exposure. I build
+            Excel and Power BI dashboards that hold up under actual business
+            questions — not just polished demos.
           </p>
-
-          <a target="_blank"  href="./pratik.pdf" rel="noopener noreferrer" class="btn btn-accent me-2">Resume</a>
-          <a
-            target="_blank"  href="https://github.com/PratikG345" rel="noopener noreferrer"
-            class="btn btn-outline-light me-2"
-            >GitHub</a
-          >
-          <a
-            target="_blank"  href="https://www.linkedin.com/in/pratikg345/" rel="noopener noreferrer"
-            class="btn btn-outline-light"
-            >LinkedIn</a
-          >
-        </div>
-
-        <div class="col-md-5 text-md-end mt-4 mt-md-0">
-          <img
-            src="pratik.jpg"
-            alt="Profile Photo"
-            loading="lazy"
-            class="rounded-circle"
-            width="300"
-            height="300"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="container mt-5">
-      <h3 class="section-title">About Me</h3>
-      <p class="text-muted-custom">
-        Junior Backend Developer transitioning from a functional role in the software industry, currently specializing in Java and Spring Boot. Focused on building reliable backend systems with strong understanding of REST API design, relational data modeling, business constraints, and scalable application architecture.
-
-        <br /><br />
-        I value clarity, correctness, and maintainable engineering over unnecessary complexity.
-      </p>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="container mt-5">
-      <h3 class="section-title">Projects</h3>
-
-      <div class="row g-4">
-        <!-- Enrollment API -->
-        <div class="col-md-6">
-          <div class="card p-4 h-100">
-            <h5>Student–Course Enrollment API</h5>
-            <p class="text-muted-custom">
-              Many-to-many relationship modeled explicitly using an Enrollment
-              entity, with constraints and state-based logic.
-            </p>
-            <ul class="text-muted-custom">
-              <li>Explicit many-to-many modeling</li>
-              <li>Duplicate enrollment prevention</li>
-              <li>Status transitions (ACTIVE / DROPPED)</li>
-            </ul>
-            <div style="display: flex; gap: 16px;">
-            <a target="_blank" href="https://github.com/PratikG345/Student-course-Enrollement-api" rel="noopener noreferrer" class="text-decoration-none"
-              >View on GitHub →</a
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a
+              target="_blank"
+              href="./pratik.pdf"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+              >Download Resume</a
             >
-            <a target="_blank" href="https://student-course-enrollement-api.onrender.com/" rel="noopener noreferrer" class="text-decoration-none"
-              >View Live →</a
-            >
+            <a href="#contact" class="btn btn-ghost">Let's talk →</a>
+          </div>
+
+          <!-- Signature KPI widget -->
+          <div class="kpi-strip">
+            <div class="kpi-cell">
+              <span class="kpi-label">Excel</span>
+              <div class="kpi-value">Advanced</div>
+              <div class="kpi-bars">
+                <span style="height: 90%"></span
+                ><span style="height: 70%"></span
+                ><span style="height: 100%"></span
+                ><span style="height: 60%"></span>
+              </div>
+            </div>
+            <div class="kpi-cell">
+              <span class="kpi-label">SQL</span>
+              <div class="kpi-value">Joins · Aggregations</div>
+              <div class="kpi-bars">
+                <span style="height: 60%"></span
+                ><span style="height: 85%"></span
+                ><span style="height: 75%"></span
+                ><span style="height: 95%"></span>
+              </div>
+            </div>
+            <div class="kpi-cell">
+              <span class="kpi-label">Power BI</span>
+              <div class="kpi-value">DAX · Modeling</div>
+              <div class="kpi-bars">
+                <span style="height: 40%"></span
+                ><span style="height: 55%"></span
+                ><span style="height: 35%"></span
+                ><span style="height: 50%"></span>
+              </div>
+            </div>
+            <div class="kpi-cell">
+              <span class="kpi-label">Python</span>
+              <div class="kpi-value">pandas · NumPy</div>
+              <div class="kpi-bars">
+                <span style="height: 70%"></span
+                ><span style="height: 65%"></span
+                ><span style="height: 80%"></span
+                ><span style="height: 55%"></span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- LogMate - Internal Logging Tool -->
-        <div class="col-md-6">
-          <div class="card p-4 h-100">
-            <h5>LogMate - Internal Logging Tool</h5>
-            <p class="text-muted-custom">
-              Web-based internal logging system to track daily work activities and professional interactions for accountability.
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <img
+              src="pratik.jpg"
+              alt="Portrait of Pratik Gaikwad"
+              width="500"
+              height="500"
+              loading="eager"
+            />
+            <div class="portrait-tag">
+              <span class="role">Data & Business Analyst</span>
+              <span class="loc">Nashik, MH</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about">
+      <div class="container-xl about-grid reveal">
+        <div>
+          <span class="eyebrow">About</span>
+          <h2 class="section-title">
+            Built systems first. Now I read what they produce.
+          </h2>
+        </div>
+        <div>
+          <p class="about-body" style="margin-top: 2.5rem">
+            <span class="about-lead">
+              I spent my first year in tech inside the data, not just looking at
+              it — designing schemas, configuring ERP workflows, and shipping
+              backend systems. Now I'm applying that same structural thinking to
+              analytics.
+            </span>
+          </p>
+          <div class="about-body">
+            <p>
+              Across a web development internship, an ERP support role, and my
+              current position in recruitment operations, I've repeatedly done
+              the same job under different titles: take unstructured, messy
+              information and turn it into something a business can act on — a
+              report, a dashboard, a repeatable process.
             </p>
-            <ul class="text-muted-custom">
-              <li>Django-based daily work logging system.</li>
-              <li>Relational CRUD with time-based filters.</li>
-              <li>Live on Render; 60+ entries in active use.</li>
-            </ul>
-            <div style="display: flex; gap: 16px;">
-              <a target="_blank" href="https://github.com/PratikG345/LogMate" rel="noopener noreferrer" class="text-decoration-none"
-                >View on GitHub →</a
+            <p>
+              I'm not approaching analytics as a career change from zero. I
+              already understand relational data modeling, query logic, and how
+              transactional systems generate the reports analysts consume — I'm
+              now formalizing that into Excel, SQL, and Power BI proficiency
+              through structured coursework and applied projects, not just
+              theory.
+            </p>
+          </div>
+          <div class="about-facts">
+            <div class="fact-row">
+              <span class="k">Location</span
+              ><span class="v">Nashik, Maharashtra, IN</span>
+            </div>
+            <div class="fact-row">
+              <span class="k">Current role</span
+              ><span class="v">HR Executive — HM Elite Placements</span>
+            </div>
+            <div class="fact-row">
+              <span class="k">Background</span
+              ><span class="v">B.E. Information Technology</span>
+            </div>
+            <div class="fact-row">
+              <span class="k">Open to</span
+              ><span class="v">Data / BI Analyst roles, internships</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills">
+      <div class="container-xl reveal">
+        <span class="eyebrow">Skills</span>
+        <h2 class="section-title">Where I'm strong, and where I'm building</h2>
+        <p class="section-sub">
+          Every skill below reflects actual applied experience or coursework in
+          progress — nothing here is aspirational without a label saying so.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <span
+                class="skill-icon"
+                style="
+                  background: var(--accent-teal-soft);
+                  color: var(--accent-teal);
+                "
               >
-              <a target="_blank" href="https://logmate-rrst.onrender.com/" rel="noopener noreferrer" class="text-decoration-none"
-                >View Live →</a
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M3 3v18h18" />
+                  <path d="M18 17V9" />
+                  <path d="M13 17V5" />
+                  <path d="M8 17v-3" />
+                </svg>
+              </span>
+              <h4>Data Analysis</h4>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Excel (XLOOKUP, INDEX/MATCH)</span>
+              <span class="tag">Pivot Tables</span>
+              <span class="tag">SQL — SELECT/JOIN/GROUP BY</span>
+              <span class="tag">Data Cleaning</span>
+              <span class="tag">EDA </span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <span
+                class="skill-icon"
+                style="
+                  background: var(--accent-gold-soft);
+                  color: var(--accent-gold);
+                "
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="3" y="11" width="4" height="10" />
+                  <rect x="10" y="6" width="4" height="15" />
+                  <rect x="17" y="3" width="4" height="18" />
+                </svg>
+              </span>
+              <h4>Business Intelligence</h4>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">KPI Reporting</span>
+              <span class="tag">Dashboard Design</span>
+              <span class="tag">Slicers & Interactivity</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <span
+                class="skill-icon"
+                style="
+                  background: var(--accent-blue-soft);
+                  color: var(--accent-blue);
+                "
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </span>
+              <h4>Programming</h4>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">pandas / NumPy</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Django ORM</span>
+              <span class="tag">Statistics</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <span
+                class="skill-icon"
+                style="
+                  background: var(--accent-teal-soft);
+                  color: var(--accent-teal);
+                "
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5v14a9 3 0 0 0 18 0V5" />
+                  <path d="M3 12a9 3 0 0 0 18 0" />
+                </svg>
+              </span>
+              <h4>Databases</h4>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">Relational Schema Design</span>
+              <span class="tag">Data Modeling</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <span
+                class="skill-icon"
+                style="
+                  background: var(--accent-gold-soft);
+                  color: var(--accent-gold);
+                "
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18" />
+                  <path d="M3 12h18" />
+                </svg>
+              </span>
+              <h4>Visualization</h4>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Pivot Charts</span>
+              <span class="tag">Conditional Formatting</span>
+              <span class="tag">Icon Sets & Data Bars</span>
+              <span class="tag">Power BI Visuals</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <span
+                class="skill-icon"
+                style="
+                  background: var(--accent-blue-soft);
+                  color: var(--accent-blue);
+                "
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                  />
+                </svg>
+              </span>
+              <h4>Tools</h4>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Git & GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Microsoft Excel</span>
+              <span class="tag">Generative AI for data workflows</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects">
+      <div class="container-xl reveal">
+        <span class="eyebrow">Projects</span>
+        <h2 class="section-title">Work you can open and check</h2>
+        <p class="section-sub">
+          Two shipped analytics projects, plus two I'm actively building as part
+          of my current roadmap — labeled honestly either way.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1: FNP Excel Dashboard (real) -->
+          <div class="project-card">
+            <div class="project-media">
+              <img
+                src="fnp-dashboard.png"
+                alt="Screenshot of the FNP interactive Excel sales dashboard"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h4>FNP Sales Performance Dashboard</h4>
+                <span class="status-pill status-live">Shipped</span>
+              </div>
+              <div class="project-field">
+                <span class="fk">Problem</span>
+                <p>
+                  Gifting sales data needed a way for stakeholders to explore
+                  revenue drivers without asking an analyst for every cut.
+                </p>
+              </div>
+              <div class="project-field">
+                <span class="fk">Dataset</span>
+                <p>
+                  1,000 transactional gifting orders — occasion, product, city,
+                  order &amp; delivery dates.
+                </p>
+              </div>
+              <div class="project-field">
+                <span class="fk">Key insights</span>
+                <p>
+                  Identified top-revenue occasions and products, delivery-time
+                  patterns by hour, and seasonal monthly swings in demand.
+                </p>
+              </div>
+              <div class="impact-box">
+                <strong>Business impact:</strong> Interactive slicers let
+                stakeholders filter ₹35.2L in revenue by occasion and date range
+                in real time, instead of requesting static reports.
+              </div>
+              <div class="project-tools">
+                <span class="tag">Excel</span>
+                <span class="tag">Pivot Tables</span>
+                <span class="tag">Pivot Charts</span>
+                <span class="tag">Slicers</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  target="_blank"
+                  href="https://github.com/PratikG345"
+                  rel="noopener noreferrer"
+                  >GitHub ↗</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience">
+      <div class="container-xl reveal">
+        <span class="eyebrow">Experience</span>
+        <h2 class="section-title">A reverse-chronological record</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">01</div>
+            <div class="timeline-head">
+              <h4>HR Executive</h4>
+              <span class="timeline-date">Mar 2026 – Present</span>
+            </div>
+            <div class="timeline-org">
+              Hari Om Udyog India Pvt. Ltd (HM Elite Placements), Nashik
+            </div>
+            <ul>
+              <li>
+                Designed and documented recruitment SOPs from the company's
+                founding stage — structuring unstructured business process into
+                repeatable procedure, a core analytical skill.
+              </li>
+              <li>
+                Built and maintained candidate pipeline tracking across multiple
+                sourcing channels, structuring candidate data to support faster
+                shortlisting decisions.
+              </li>
+              <li>
+                Coordinated with client HR teams on hiring requirements,
+                requiring close reading of requirement data and structured
+                reporting back.
+              </li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">02</div>
+            <div class="timeline-head">
+              <h4>Technical Operations & ERP Support Associate</h4>
+              <span class="timeline-date">Nov 2025 – Feb 2026</span>
+            </div>
+            <div class="timeline-org">
+              Pamtsoft Infosolutions (Client: Entraco Bks Busducts Pvt. Ltd.),
+              Nashik
+            </div>
+            <ul>
+              <li>
+                Worked directly with ERP-generated business reports — purchase
+                order volumes, vendor ratings, stock movement — to support
+                procurement and production decisions.
+              </li>
+              <li>
+                Assisted in configuring ERP workflows across Purchase, Store,
+                Production, and Quality modules, gaining first-hand fluency in
+                how transactional data flows through a multi-module system.
+              </li>
+              <li>
+                Translated data and system issues into clear explanations for
+                non-technical stakeholders; trained department users on ERP
+                reporting.
+              </li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">03</div>
+            <div class="timeline-head">
+              <h4>Web Developer Intern</h4>
+              <span class="timeline-date">May 2025 – Nov 2025</span>
+            </div>
+            <div class="timeline-org">A2Z IT Hub Pvt. Ltd., Nashik</div>
+            <ul>
+              <li>
+                Built backend features using Django ORM, working directly with
+                the same relational schema design and query logic that underpins
+                analytics work.
+              </li>
+              <li>
+                Optimized query handling and model relationships, improving data
+                retrieval efficiency on existing modules.
+              </li>
+              <li>
+                Maintained version control using Git and GitHub in a
+                collaborative environment.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESUME ============ -->
+    <section id="resume">
+      <div class="container-xl reveal">
+        <span class="eyebrow">Resume</span>
+        <h2 class="section-title">One PDF, no fluff</h2>
+
+        <div class="resume-panel">
+          <div class="resume-copy">
+            <h3>Data & Business Analyst — Résumé</h3>
+            <a
+              target="_blank"
+              href="./pratik.pdf"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              >Download Resume (PDF)</a
+            >
+          </div>
+          <div class="resume-highlights">
+            <div class="item">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M20 6 9 17l-5-5" />
+              </svg>
+              <span
+                >Excel, SQL, and ERP-reporting experience, applied — not
+                theoretical</span
+              >
+            </div>
+            <div class="item">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M20 6 9 17l-5-5" />
+              </svg>
+              <span
+                >Relational data modeling background from Django ORM
+                development</span
               >
             </div>
           </div>
         </div>
-        <!-- Blog API -->
-        <div class="col-md-6">
-          <div class="card p-4 h-100">
-            <h5>Blog System API</h5>
-            <p class="text-muted-custom">
-              Blog backend with authors, posts, and comments, focusing on FK
-              relationships and reverse querying.
-            </p>
-            <ul class="text-muted-custom">
-              <li>Read vs write serializers</li>
-              <li>Context-aware endpoints</li>
-              <li>Clean response representation</li>
-            </ul>
-            <a target="_blank" href="https://github.com/PratikG345/blog_api" rel="noopener noreferrer" class="text-decoration-none"
-              >View on GitHub →</a
-            >
-          </div>
-        </div>
-
-        <!-- Expense API -->
-        <div class="col-md-6">
-          <div class="card p-4 h-100">
-            <h5>Expense Management API</h5>
-            <p class="text-muted-custom">
-              CRUD-based expense tracking system with category relationships.
-            </p>
-            <ul class="text-muted-custom">
-              <li>One-to-many modeling</li>
-              <li>Serializer-based representation</li>
-              <li>Clean CRUD endpoints</li>
-            </ul>
-            <a target="_blank"href="https://github.com/PratikG345/expenses_api" rel="noopener noreferrer" class="text-decoration-none"
-              >View on GitHub →</a
-            >
-          </div>
-        </div>
-        
       </div>
     </section>
 
-    <!-- TECH STACK -->
-    <section class="container mt-5">
-      <h3 class="section-title">Technologies</h3>
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section id="achievements">
+      <div class="container-xl reveal">
+        <span class="eyebrow">Achievements</span>
+        <h2 class="section-title">Proof of work, not just claims</h2>
 
-      <div>
-        <span class="tech-badge">Python</span>
-        <span class="tech-badge">Javascript</span>
-        <span class="tech-badge">Java</span>
-        <span class="tech-badge">Django</span>
-        <span class="tech-badge">Django REST Framework</span>
-        <span class="tech-badge">SQLite</span>
-        <span class="tech-badge">PostgreSQL (basic)</span>
-        <span class="tech-badge">Git</span>
+        <div class="achieve-grid">
+          <div class="achieve-card">
+            <span class="achieve-num">01</span>
+            <h4>Full-stack certification</h4>
+            <p>
+              Completed Java + Python Full Stack Development certification,
+              CoDingSeekho Institute, 2025.
+            </p>
+          </div>
+          <div class="achieve-card">
+            <span class="achieve-num">02</span>
+            <h4>Analytics certification, </h4>
+            <p>
+              Currently completing "Data Analyst with Generative AI"
+              certification, Analytics Benchmark.
+            </p>
+          </div>
+          <div class="achieve-card">
+            <span class="achieve-num">03</span>
+            <h4>Zero-to-one ERP configuration</h4>
+            <p>
+              Assisted configuring ERP workflows across four business modules at
+              a live manufacturing client.
+            </p>
+          </div>
+          <div class="achieve-card">
+            <span class="achieve-num">04</span>
+            <h4>Founding-stage SOP design</h4>
+            <p>
+              Wrote recruitment SOPs from a company's founding stage, with no
+              prior template to work from.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="container mt-5">
-      <h3 class="section-title">Let’s Connect</h3>
-      <p class="text-muted-custom">
-        Open to entry-level backend roles and internships.
-      </p>
-      <a target="_blank" href="mailto:mrpratikonline@email.com" rel="noopener noreferrer" class="btn btn-accent">Say Hello</a>
+    <!-- ============ SERVICES ============ -->
+    <section id="services">
+      <div class="container-xl reveal">
+        <span class="eyebrow">Services</span>
+        <h2 class="section-title">What I can take off your plate</h2>
+        <p class="section-sub">
+          Freelance or contract scope, sized for small teams that need clean
+          reporting without hiring a full analytics function.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <span class="service-index">/ 01</span>
+            <h4>Dashboard Development</h4>
+            <p>
+              Interactive Excel dashboards with slicers, KPI cards, and
+              drill-down views built around the questions your team actually
+              asks.
+            </p>
+          </div>
+          <div class="service-card">
+            <span class="service-index">/ 02</span>
+            <h4>Data Cleaning & Prep</h4>
+            <p>
+              Turning inconsistent exports and manual spreadsheets into
+              structured, analysis-ready tables.
+            </p>
+          </div>
+          <div class="service-card">
+            <span class="service-index">/ 03</span>
+            <h4>Business Analysis</h4>
+            <p>
+              Translating operational data — procurement, vendor, recruitment —
+              into findings a non-technical stakeholder can act on.
+            </p>
+          </div>
+          <div class="service-card">
+            <span class="service-index">/ 04</span>
+            <h4>Excel Automation</h4>
+            <p>
+              Formula-driven reporting templates that update themselves instead
+              of being rebuilt every month.
+            </p>
+          </div>
+          <div class="service-card">
+            <span class="service-index">/ 05</span>
+            <h4>SQL Reporting</h4>
+            <p>
+              Query-based reporting against relational databases — joins,
+              aggregations, and scheduled extracts.
+            </p>
+          </div>
+          <div class="service-card">
+            <span class="service-index">/ 06</span>
+            <h4>Power BI Development</h4>
+            <p>
+              Currently building this capability in public — available for
+              supervised or paired Power BI work now, full builds soon.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="container text-center">
-      <p>© 2025 Pratik Gaikwad• Backend Developer</p>
+    <!-- ============ CONTACT ============ -->
+    <section id="contact">
+      <div class="container-xl reveal">
+        <div class="contact-panel">
+          <span class="eyebrow" style="justify-content: center">Contact</span>
+          <h3>
+            Hiring for a Data Analyst, Business Analyst, or BI Developer role?
+          </h3>
+          <p>
+            I'm actively interviewing and open to relocation. Send over the role
+            details or a dataset — I'll walk you through how I'd approach it.
+          </p>
+          <div class="contact-actions">
+            <a
+              target="_blank"
+              href="mailto:mrpratikonline@gmail.com"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              >Email Me</a
+            >
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/pratikg345/"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+              >LinkedIn</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/PratikG345"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="container-xl footer-inner">
+        <p style="margin: 0">© 2026 Pratik Gaikwad · Data & Business Analyst</p>
+        <ul class="footer-links">
+          <li><a href="mailto:mrpratikonline@gmail.com">Email</a></li>
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/PratikG345"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/pratikg345/"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
+
+    <script>
+      // Scroll-reveal for sections — respects reduced-motion via CSS transition-duration override
+      const revealEls = document.querySelectorAll(".reveal");
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+      revealEls.forEach((el) => io.observe(el));
+    </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
